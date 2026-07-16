@@ -6,5 +6,5 @@ int main()
     printf("Enter an integer : ");
     scanf("%d", &num);
     printf("%d\n", num);
-        return0;
+        return 0;
     }
