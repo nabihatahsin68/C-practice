@@ -7,5 +7,6 @@ int main()
     printf("Enter height= ");
     scanf("%f",&height);
     area=0.5*base*height;
-    printf("Area of 
+    printf("Area of triangle= %f\n",area);
+    return 0;
 }
