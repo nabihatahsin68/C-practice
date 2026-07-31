@@ -4,6 +4,6 @@ int main()
 { 
     double x=1;
     double result=log10(x);
-    printf("log10(%d)=%d\n",x,result);
+    printf("log10(%lf)=%lf\n",x,result);
     return 0;
 }
