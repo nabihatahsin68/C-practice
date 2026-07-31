@@ -4,6 +4,6 @@ int main()
 { 
     double x=0.35;
     double result=exp(x);
-    printf("exp(%d)=%d\n",x,result);
+    printf("exp(%lf)=%lf\n",x,result);
     return 0;
 }
