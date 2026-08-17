@@ -1,3 +1,4 @@
+//1^2+2^2+3^2+4^2......+n^2
 #include<stdio.h>
 int main() 
 {
@@ -7,10 +8,9 @@ int main()
     for(i=1;i<=n;i++)
     { 
        printf("%d",i);
-        sum = sum + i;
+        sum = sum + i*i;
     }
     printf("\nSum=%d\n",sum);
     return 0;
 
 }
-//1+2+3+4......+n
